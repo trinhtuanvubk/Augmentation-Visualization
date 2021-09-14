@@ -11,7 +11,7 @@ def main_args():
     # parameters of audiomentations
     audiomentations.add_argument('--compose', type=str, help='Comma-separated list of effects to apply, e.g. "pitch,dropout"',
         default='AddGaussianNoise')
-    audiomentations.add_argument('--min_snr_in_db', type=int, help='', default=30)
+    audiomentations.add_argument('--min_snr_in_db', type=int, help='', default=50)
     audiomentations.add_argument('--max_snr_in_db', type=int, help='', default=90)
     audiomentations.add_argument('--background_noise',type =str, help='Folder path of noise', default='none')
     
