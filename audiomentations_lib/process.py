@@ -33,7 +33,7 @@ def aug_factory(description, args):
         if effect == 'AddGaussianNoise':
             transformations.append(AddGaussianNoise(p=1.0))
         elif effect == 'AddGaussianSNR':
-            transformations.append(AddGaussianSNR(p=1.0, min_snr_in_db=30, max_snr_in_db=90))
+            transformations.append(AddGaussianSNR(p=1.0, min_snr_in_db=args.min_snr_in_db, max_snr_in_db=args.max_snr_in_db))
         elif effect == 'FrequencyMask':
             transformations.append(FrequencyMask(p=1.0))
         elif effect == 'TimeMask':
