@@ -24,13 +24,17 @@ Normalize, PitchShift, PolarityInversion, Reverse, Shift, TimeMask, TimeStretch
 * Example : --compose "AddGaussianSNR,PitchShift"
 ## - WavAugment : 
 ```zsh
-        python3 main.py --input "InputFolder/" \
+        python3 main.py -input "InputFolder/" \
                          -output "OutputFolder/" \
                          wavaugment \
                          --chain "ListOfEffects"
 ```
 * List of effects : bandreject, pitch, reverb, time_drop, clip, contrast, ...
 * Example : --chain "pitch,clip"
+## - Run bash script 
+```zsh 
+        chmod +x run.sh && ./run.sh
+```
 # **Visualization**
 ## - To visualize transformations at local,  : 
 * `cd visualization`
