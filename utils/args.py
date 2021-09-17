@@ -13,6 +13,8 @@ def main_args():
         default='AddGaussianNoise')
     audiomentations.add_argument('--min_snr_in_db', type=int, help='', default=50)
     audiomentations.add_argument('--max_snr_in_db', type=int, help='', default=90)
+    audiomentations.add_argument('--min_frac', type=float, help='', default=-0.2)
+    audiomentations.add_argument('--max_frac', type=float, help='', default=0.2)
     audiomentations.add_argument('--background_noise',type =str, help='Folder path of noise', default='none')
     
     # parameters of wavaugment

@@ -43,7 +43,7 @@ def aug_factory(description, args):
         elif effect == 'PitchShift':
             transformations.append(PitchShift(p=1.0))
         elif effect == 'Shift':
-            transformations.append(Shift(p=1.0))
+            transformations.append(Shift(min_fraction=args.min_frac,max_fraction=args.max_frac,p=1.0))
         elif effect == 'Normalize':
             transformations.append(Normalize(p=1.0))
         elif effect == 'PolarityInversion':
