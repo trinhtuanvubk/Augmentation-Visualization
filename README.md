@@ -36,7 +36,7 @@ Normalize, PitchShift, PolarityInversion, Reverse, Shift, TimeMask, TimeStretch
         chmod +x run.sh && ./run.sh
 ```
 # **Visualization**
-## - To visualize transformations at local,  : 
+## - To visualize transformations at local : 
 * `cd visualization`
 * `streamlit run app.py`
                          
