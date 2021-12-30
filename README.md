@@ -33,7 +33,7 @@ Normalize, PitchShift, PolarityInversion, Reverse, Shift, TimeMask, TimeStretch
 * Example : --chain "pitch,clip"
 ## - Run bash script 
 ```zsh 
-        chmod +x run.sh && ./run.sh
+        bash run.sh
 ```
 # **Visualization**
 ## - To visualize transformations at local : 
