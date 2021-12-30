@@ -1,4 +1,4 @@
-# **Voice-Augmentations**
+# **Augmentations-Visualization for Speech Data**
 # **Setup**
 ## - Create a new enviroment to avoid error
 ## - To install [audiomentations](https://github.com/iver56/audiomentations) : 
